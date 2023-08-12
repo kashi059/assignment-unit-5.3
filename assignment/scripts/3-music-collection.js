@@ -17,5 +17,15 @@ console.log(collection);
 function showCollection (collection) {
     for (let i=0; i < collection.length; ++i)
     console.log ('number of songs listed ' + collection.length)
-    console.log(collection(i))
+    console.log(collection(i(0)) + " by " + collection (i(1)) + " published in "collection (i(2)));
 }
+
+showCollection();
+
+let artistsListed = [];
+
+function findByArtist ("Artist") {
+    for (let i=0; i < collection.length; ++i)
+    artistsListed.push(collection(i(1)))
+}
+console.log(artistsListed);
